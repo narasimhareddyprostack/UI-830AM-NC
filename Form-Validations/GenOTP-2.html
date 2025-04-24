@@ -6,7 +6,7 @@
         <h3>Generate OTP</h3>
         <form action="/genOTP">
             <label >Mobile Number*:</label>
-            <input  type="text" required pattern="[6-9][0-9]{9}"/> <br><br>
+            <input  type="number" required min="6000000000" max="9999999999"/> <br><br>
             <input type="submit" value="Get">
         </form>
     </body>
